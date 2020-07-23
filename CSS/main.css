@@ -1,0 +1,392 @@
+body {
+    background: rgb(43, 8, 241);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#wrapper {
+    margin-top: 0px;
+    /*margin:0 auto;*/
+    max-width: 98%;
+    background:gold;
+    padding: 2%;
+    border-radius: 2px;
+}
+
+div .fixedheader{
+    margin-top: 0px;
+    position: fixed;
+    color: white;
+
+}
+
+
+header {
+    margin-top: 0px;
+    width: 100%;
+    min-height: 125px;
+    padding: 5px;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+
+.img {
+    display: none;
+    width:60%;
+    height: 20%;
+}
+
+h2{
+    margin-top: -20px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4{
+    margin-top: 0p;
+    font-size:80px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
+
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 0;
+    padding-left: 22%;
+}
+
+nav ul li {
+    float: left;
+    display: none;
+}
+
+nav li {
+    text-align: center;
+    width:10%;
+} 
+/*----------DROPDOWN STARTING-----*/
+ul.child {
+    display:none;
+    width: 100%!important;
+    padding: 0 0;
+    margin-top: 5px;
+    background:transparent;
+    cursor: pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0 0;
+}
+
+li .drop{
+    width: 100%!important;
+    padding: 5px 0;
+    margin-top: 5px;
+    background:transparent;
+}
+
+.drop{
+    width: 100%!important;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+/*-----------DROPDOWN ENDING--------*/
+
+nav ul li {
+background: rgb(119, 110, 89);
+border-radius: 80%;
+display: block;
+padding: 10px 40px;
+font-weight: bold;
+font-size:18px;
+color: wheat;
+text-decoration: none;
+}
+
+nav ul.call li:hover {
+    background: transparent;
+    color: black;
+    }
+
+nav ul li.active {
+        background: gray;
+        color: rgb(95, 250, 237);
+        }
+.clearfix{
+    clear: both;
+}
+
+.banner{
+    width:99%;
+    border-radius: 10px;
+    border: 5px solid rgb(43, 8, 241);
+    box-shadow: 0 0 15px rgb(202, 196, 135);
+}
+
+#cicle{
+   
+    width:100%;
+    height:400px;
+}
+/*-----Third Section-------*/
+.three_test{
+   max-width: 30%;
+   float: left;
+   margin: 1.6%;
+}
+
+h3{
+    font-family: initial;
+    font-size:255%;
+    color: gold;
+}
+
+p{
+    font-family: serif;
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 125%;
+    padding:1%; 
+    color: azure;
+}
+.section{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    float:right;
+    padding: 35px 20px 0 0;
+}
+
+
+/*---FOOTER-----------*/
+footer{
+    background: rgb(90, 88, 88);
+    opacity: .9;
+    overflow: hidden;
+}
+
+.inner-footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .three_test{
+    width: 33%;
+    margin: 2% 0;
+}
+
+footer h3{
+    color: rgb(180, 174, 174);
+}
+
+footer P, a{
+    color: rgb(252, 252, 252);
+    text-align: center;
+    text-decoration: none;
+}
+
+.social:hover {
+    padding: 0 6%;
+    }
+
+.social{
+    padding: 2% 4%;
+}
+
+
+#seperate{
+    border-right: 3px solid rgb(143, 53, 53);
+    max-height: 195px;
+    min-height: 195px;
+}
+
+  .ending{
+        border-top: 1px solid rgb(185, 184, 184);
+        background: rgb(116, 114, 114);
+    }
+
+    .ending p{
+        text-transform: lowercase;
+    }
+
+
+/*---------- MEDIA QUERYS!-------------*/
+@media screen and (max-width:1180px) {
+
+    nav ul {
+        list-style: none;
+        margin-top: 0;
+        padding-left: 17%;
+
+    }
+
+}
+
+
+/*---------- MEDIA QUERYS!-------------*/
+@media screen and (max-width:1001px) {
+
+    nav ul {
+        list-style: none;
+        margin-top: 0;
+        padding-left: 14%;
+    }
+
+}
+
+/*---------- MEDIA QUERYS!-------------*/
+@media screen and (max-width:740px) { 
+    
+    .img {
+        width: 90%;
+        height: 15%;
+    }
+
+
+    h2{
+        font-size: 35px;
+        color: black;
+        text-decoration: overline;
+        font-family: cursive;
+    }
+
+    nav {
+        width:65%;
+        margin-bottom:10px;
+    }
+
+    nav ul {
+        list-style:none;
+        margin:0 auto;
+        padding-left: 25%;
+    }
+
+    nav li {
+        text-align: center;
+        margin-left: 0 auto;
+        width: 100%;
+    }
+
+    /*---------Dropdown for media-------*/
+    ul.child {
+        display:none;
+        width: 100%!important;
+        padding: 0 0;
+        margin-top: 5px;
+        border: 1px solid rgb(250, 244, 244);
+        box-shadow: 0px 0px 0px rgb(202, 196, 135);
+    }
+    
+
+    li .drop{
+        width: 100%!important;
+        padding: 5px 0;
+        margin-top: 5px;
+        border:none;
+        box-shadow: none;
+    }
+
+    li.drop:hover {
+        background:none;
+        color: rgb(240, 238, 232);
+    } 
+    /*---------------DROPDOWN ENDING----------------*/
+    nav ul li {
+        float: left;
+        border-radius: 20%;
+        border: no;
+        box-shadow: 5px 5px 15px rgb(202, 196, 135);
+    }
+
+    nav ul li{
+        background: floralwhite;
+        display: block;
+        border-radius: 50%;
+        padding: 10px 40px;
+        font-weight: bold;
+        font-size:18px;
+        color: black;
+        text-decoration: none;
+    }
+
+    nav ul li:hover, nav ul li.active {
+        background: gray;
+        color: aqua;
+    }
+
+    .clearfix{
+        clear: both;   
+    }
+
+    .banner{
+        width:98%;
+        border-radius: 70%;
+        border: 2px solid rgb(248, 6, 167);
+        box-shadow: 3px 7px 8px rgb(202, 196, 135);
+    }
+
+    #cicle{
+        border-radius: 70%;
+        width:100%;
+        height:400px;
+    }
+    /*--------Dropdown Display --------*/
+    ul.child{
+        display:none;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*-----Ending Dropdown-----------*/
+
+    .three_test{
+        max-width: 100%;
+        margin: 3%;
+    }
+    p{
+        text-align: start;
+    }
+
+    footer .three_test{
+        width:100%;
+    }
+
+    #seperate{
+        border-bottom: 2px solid rgb(116, 114, 114);
+        
+    }
+    
+    #seperate-last{
+margin-bottom: 40px;
+    }
+
+    .ending{
+        border-top: 1px solid rgb(185, 184, 184);
+        background: rgb(116, 114, 114);
+    }
+
+    .ending p{
+        text-transform: lowercase;
+    }
+
+    .social {
+        padding: 2% 4%;
+    }
+}
