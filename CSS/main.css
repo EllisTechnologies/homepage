@@ -1,5 +1,5 @@
 body {
-    background: rgb(43, 8, 241);
+    background: rgb(151, 132, 238);
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
@@ -9,8 +9,8 @@ body {
 #wrapper {
     margin-top: 0px;
     /*margin:0 auto;*/
-    max-width: 98%;
-    background:gold;
+    max-width: 100%;
+    background:rgb(96, 90, 99);
     padding: 2%;
     border-radius: 2px;
 }
@@ -25,7 +25,7 @@ div .fixedheader{
 
 header {
     margin-top: 0px;
-    width: 100%;
+    width: 99%;
     min-height: 125px;
     padding: 5px;
     margin-bottom: auto;
@@ -34,21 +34,38 @@ header {
 }
 
 .img {
-    display: none;
-    width:60%;
-    height: 20%;
+    display:flex;
+    width:8%;
+    height: 10%;
+    margin-top: -9%;
+}
+
+.btn{
+    font-size:22px;
+    color: rgb(239, 242, 245);
+    background-color: rgb(65, 131, 76);
+    float: right;
+    margin-left: -10%;
+    margin-right: 0%;
+    border-style: ridge;
+}
+.btn:hover{
+    color: red;
 }
 
 h2{
-    margin-top: -20px;
-    font-size: 22px;
+    margin-top: -5px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
+h2.down{
+    font-size: 30px;
 }
 
 h4{
-    margin-top: 0p;
+    margin-top: -14px;
     font-size:80px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -109,13 +126,13 @@ li .drop{
 /*-----------DROPDOWN ENDING--------*/
 
 nav ul li {
-background: rgb(119, 110, 89);
+background: rgb(122, 122, 121);
 border-radius: 80%;
 display: block;
 padding: 10px 40px;
 font-weight: bold;
 font-size:18px;
-color: wheat;
+color: rgb(243, 174, 46);
 text-decoration: none;
 }
 
@@ -154,7 +171,7 @@ nav ul li.active {
 h3{
     font-family: initial;
     font-size:255%;
-    color: gold;
+    color: rgb(238, 238, 208);
 }
 
 p{
@@ -163,7 +180,7 @@ p{
     text-transform: capitalize;
     font-size: 125%;
     padding:1%; 
-    color: azure;
+    color: rgb(33, 49, 49);
 }
 .section{
     font-family:Arial, Helvetica, sans-serif;
@@ -244,8 +261,9 @@ footer P, a{
     nav ul {
         list-style: none;
         margin-top: 0;
-        padding-left: 14%;
+        padding-left: 12%;
     }
+
 
 }
 
@@ -253,16 +271,45 @@ footer P, a{
 @media screen and (max-width:740px) { 
     
     .img {
-        width: 90%;
-        height: 15%;
+        display:flex;
+        width:19%;
+        height: 11%;
+        margin-top: -7%;
+        margin-right: 2px;
+        float: right;
+    }
+    .btn{
+        font-size:17px;
+        color: slategrey;
+        background-color: snow;
+        float: left;
+        margin-left: 0%;
+        margin-right: -10%;
+        border-style: double;
     }
 
 
     h2{
-        font-size: 35px;
-        color: black;
-        text-decoration: overline;
-        font-family: cursive;
+        margin-top: -5px;
+        margin-left: 30px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    }
+    h2.down{
+        font-size: 23px;
+        margin-bottom: -10%;
+        margin-left: 20px;
+    }
+
+    h4{
+        margin-top: -15px;
+        margin-left: -110%;
+        font-size:55px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color: azure;
     }
 
     nav {
@@ -273,7 +320,7 @@ footer P, a{
     nav ul {
         list-style:none;
         margin:0 auto;
-        padding-left: 25%;
+        padding-left: 27%;
     }
 
     nav li {
@@ -334,7 +381,7 @@ footer P, a{
     }
 
     .banner{
-        width:98%;
+        width:99%;
         border-radius: 70%;
         border: 2px solid rgb(248, 6, 167);
         box-shadow: 3px 7px 8px rgb(202, 196, 135);
