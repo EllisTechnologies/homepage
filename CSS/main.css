@@ -270,20 +270,30 @@ footer P, a{
 /*---------- MEDIA QUERYS!-------------*/
 @media screen and (max-width:740px) { 
     
+    header {
+        margin-top: 0px;
+        width: 90%;
+        min-height: 125px;
+        padding: 5px;
+        margin-bottom: auto;
+        text-align: center;
+        
+    }
     .img {
         display:flex;
-        width:19%;
-        height: 11%;
-        margin-top: -7%;
+        width:12%;
+        height: 9%;
+        margin-top: 2%;
         margin-right: 2px;
-        float: right;
+        float: left;
     }
     .btn{
-        font-size:17px;
+        font-size:15px;
         color: slategrey;
         background-color: snow;
         float: left;
-        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-left: -1%;
         margin-right: -10%;
         border-style: double;
     }
