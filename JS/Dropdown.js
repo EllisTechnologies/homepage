@@ -1,6 +1,3 @@
-
-$(document).ready();
-
 $(function(){
   $(".activepic").show(function(){
     if ($(".activepic").click(function(){
